@@ -8,6 +8,10 @@ module FormsLab
       erb :index
     end
     
+    get '/new' do 
+      erb :new 
+    end
+    
     
     
   end
