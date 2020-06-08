@@ -2,8 +2,10 @@ require './environment'
 
 module FormsLab
   class App < Sinatra::Base
-    set :views, 
+    set :views, 'views/pirates'
     # code other routes/actions here
+    
+    
     
   end
 end
