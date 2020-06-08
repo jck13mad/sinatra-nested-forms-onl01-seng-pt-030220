@@ -5,7 +5,9 @@ module FormsLab
     set :views, 'views/pirates'
     # code other routes/actions here
     get '/' do
-      
+      erb :index
+    end
+    
     
     
   end
